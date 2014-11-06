@@ -1,0 +1,18 @@
+@0xf61f42700593e2eb;
+
+struct Command {
+	id @0 :UInt32;
+	union {
+		moveCube :group {
+			dX @1 :Float32;
+			dY @2 :Float32;
+			dZ @3 :Float32;
+		}
+		connect :group {
+			cl @4 :Void;
+		}
+		disconnect :group {
+			dc @5 :Void;
+		}
+	}
+}

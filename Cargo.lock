@@ -1,0 +1,12 @@
+[root]
+name = "net"
+version = "0.0.1"
+dependencies = [
+ "capnp 0.1.0 (git+https://github.com/dwrensha/capnproto-rust.git)",
+]
+
+[[package]]
+name = "capnp"
+version = "0.1.0"
+source = "git+https://github.com/dwrensha/capnproto-rust.git#dea1f7ed547e4b6396b298e071d0c6c0d4082e5f"
+

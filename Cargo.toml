@@ -1,0 +1,9 @@
+[package]
+
+name = "net"
+version = "0.0.1"
+authors = ["Jake Greenfield <jake@naveria.com>"]
+
+[dependencies.capnp]
+
+git = "https://github.com/dwrensha/capnproto-rust.git"
